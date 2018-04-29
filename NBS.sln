@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathfinding", "src\Pathfinding\Pathfinding.csproj", "{FC496B9F-F1B6-4F9F-BB61-64668D15E153}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathfinding.Tests", "test\Pathfinding.Tests\Pathfinding.Tests.csproj", "{D7C75DCE-CD17-461D-A1CF-C5FAB731656B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC496B9F-F1B6-4F9F-BB61-64668D15E153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC496B9F-F1B6-4F9F-BB61-64668D15E153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC496B9F-F1B6-4F9F-BB61-64668D15E153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC496B9F-F1B6-4F9F-BB61-64668D15E153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C75DCE-CD17-461D-A1CF-C5FAB731656B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C75DCE-CD17-461D-A1CF-C5FAB731656B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C75DCE-CD17-461D-A1CF-C5FAB731656B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C75DCE-CD17-461D-A1CF-C5FAB731656B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {113FC532-0096-4FC2-8960-E95A7B0C2F44}
+	EndGlobalSection
+EndGlobal
